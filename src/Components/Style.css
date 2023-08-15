@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(242, 221, 215);
+}
+
+/* Navbar  */
+.pHead{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(70, 19, 4);
+    box-shadow: 5px 5px 10px rgb(33, 33, 33);
+    margin: auto;
+    border-radius: 5px;
+}
+
+.navbar{
+    width: 55%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar .navlink{
+    width: 15%;
+    height: 2rem;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+    transition: all .2s linear;
+    border: 1px solid white;
+}
+
+.navlink:hover{
+    font-size: xx-large;
+}
+
+/* Name */
+
+.pName{
+    width: 20%;
+    min-width: fit-content;
+    max-height: inherit;
+    overflow: hidden;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.pName span:nth-child(1){
+    font-size: 3em;
+    color: white;
+    font-weight: 900;
+    padding-left: .3rem;
+}
+
+.pName span:nth-child(2){
+    font-size: 1.9em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 0.4rem;
+    left: .1rem;
+}
+
+.pName span:nth-child(3){
+    font-size: 3em;
+    color: white;
+    font-weight: 900;
+    padding-left: .6rem;
+}
+
+.pName span:nth-child(4){
+    font-size: 1.9em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 0.4rem;
+    left: .1rem;
+}
