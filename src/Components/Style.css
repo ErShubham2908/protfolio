@@ -4,7 +4,12 @@
 }
 
 body{
-    background-color: rgb(242, 221, 215);
+    background-image: url('../Asset/background4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh; 
+    /* background-color: blue; */
+    width: 100%;
+    height: 100vh;
 }
 
 /* Navbar  */
@@ -14,15 +19,14 @@ body{
     display: flex;
     position: sticky;
     top: 0px;
-    background-color: rgb(2, 0, 51);
-    box-shadow: 5px 5px 10px rgb(33, 33, 33);
+    text-shadow: 5px 5px 10px rgb(33, 33, 33);
     margin: auto;
     border-radius: 5px;
 }
 
 .navbar{
     width: 55%;
-    /* border: 1px solid white; */
+    opacity: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,7 +38,9 @@ body{
     width: 15%;
     height: 2rem;
     font-size: 1.7em;
-    color: white;
+    color: rgb(2, 0, 51);
+    opacity: 1;
+    /* background-color: white; */
     text-decoration: none;
     transition: all .2s linear;
     /* border: 1px solid white; */
@@ -61,7 +67,7 @@ body{
 
 .pName span:nth-child(1){
     font-size: 3em;
-    color: white;
+    color: rgb(2, 0, 51);
     font-weight: 900;
     padding-left: .3rem;
 }
@@ -87,4 +93,34 @@ body{
     position: relative;
     top: 0.4rem;
     left: .1rem;
+}
+
+/* Home Components */
+
+.pHome{
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+    /* background-image: url('../Asset/background4.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100vh; 
+}
+
+/* .pImg{
+    width: 30%;
+    height: 68%;
+    border: .5em outset blue;
+    position: absolute;
+    top: 5em;
+    right: 2em;
+    border-radius: .5rem;
+} */
+
+.imgP{
+    /* width: 100%;
+    height: auto; */
+    width: 20%;
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px gray;
 }
